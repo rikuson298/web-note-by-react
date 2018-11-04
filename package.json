@@ -5,6 +5,7 @@
   "dependencies": {
     "@babel/core": "7.1.0",
     "@svgr/webpack": "2.4.1",
+    "@types/styled-components": "^4.0.3",
     "@types/webpack": "^4.4.17",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "9.0.0",
@@ -45,6 +46,7 @@
     "sass-loader": "7.1.0",
     "source-map-loader": "^0.2.1",
     "style-loader": "0.23.0",
+    "styled-components": "^4.0.3",
     "terser-webpack-plugin": "1.1.0",
     "thread-loader": "1.2.0",
     "ts-jest": "22.0.1",

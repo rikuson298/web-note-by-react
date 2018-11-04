@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Button from './Button'
 
 const counter:React.SFC<{}> = () => {
   const [count, setCount] = React.useState(0)
@@ -6,9 +7,9 @@ const counter:React.SFC<{}> = () => {
     <div>
       counter
       {count}
-      <button onClick={() => setCount(count + 1)}>
+      <Button onClick={() => setCount(count + 1)}>
         +
-      </button>
+      </Button>
     </div>
   )
 }
