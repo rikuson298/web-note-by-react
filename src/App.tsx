@@ -1,6 +1,7 @@
-import * as React from 'react';
-import './App.css';
-import logo from './logo.svg';
+import * as React from 'react'
+import './App.css'
+import Counter from './Counter'
+import logo from './logo.svg'
 
 class App extends React.Component {
   public render() {
@@ -19,6 +20,7 @@ class App extends React.Component {
           >
             Learn React
           </a>
+          <Counter />
         </header>
       </div>
     );
