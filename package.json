@@ -84,15 +84,14 @@
   },
   "jest": {
     "collectCoverageFrom": [
-      "src/**/*.{js,jsx,ts,tsx}",
+      "src/scripts/**/*.{js,jsx,ts,tsx}",
       "!**/*.d.ts"
     ],
     "setupFiles": [
       "react-app-polyfill/jsdom"
     ],
     "testMatch": [
-      "<rootDir>/src/**/__tests__/**/*.(j|t)s?(x)",
-      "<rootDir>/src/**/?(*.)(spec|test).(j|t)s?(x)"
+      "<rootDir>/src/test/**/?(*.)(spec|test).(j|t)s?(x)"
     ],
     "testEnvironment": "jsdom",
     "testURL": "http://localhost",

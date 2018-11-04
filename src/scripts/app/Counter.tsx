@@ -1,5 +1,5 @@
 import * as React from 'react'
-import Button from './Button'
+import Button from 'src/scripts/shared/Button'
 
 const counter:React.SFC<{}> = () => {
   const [count, setCount] = React.useState(0)

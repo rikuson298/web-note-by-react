@@ -1,7 +1,6 @@
 import * as React from 'react'
-import './App.css'
+import logo from 'src/assets/logo.svg'
 import Counter from './Counter'
-import logo from './logo.svg'
 
 class App extends React.Component {
   public render() {
@@ -27,4 +26,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default App
