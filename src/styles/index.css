@@ -10,13 +10,17 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
-  margin:0;
-  padding:0;
-  border:0;
-  outline:0;
-  font-size:100%;
-  vertical-align:baseline;
-  background:transparent;
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
 }
 
 article,aside,details,figcaption,figure,
@@ -25,15 +29,24 @@ footer,header,hgroup,menu,nav,section {
 }
 
 nav ul {
+<<<<<<< HEAD
   list-style:none;
 }
 
 blockquote, q {
   quotes:none;
+=======
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+>>>>>>> 334c54fdf3a6455d0ced19dd75283546c04b8bd0
 }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
+<<<<<<< HEAD
   content:'';
   content:none;
 }
@@ -44,17 +57,36 @@ a {
   font-size:100%;
   vertical-align:baseline;
   background:transparent;
+=======
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+>>>>>>> 334c54fdf3a6455d0ced19dd75283546c04b8bd0
 }
 
 /* change colours to suit your needs */
 ins {
+<<<<<<< HEAD
   background-color:#ff9;
   color:#000;
   text-decoration:none;
+=======
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+>>>>>>> 334c54fdf3a6455d0ced19dd75283546c04b8bd0
 }
 
 /* change colours to suit your needs */
 mark {
+<<<<<<< HEAD
   background-color:#ff9;
   color:#000; 
   font-style:italic;
@@ -73,10 +105,31 @@ abbr[title], dfn[title] {
 table {
   border-collapse:collapse;
   border-spacing:0;
+=======
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+>>>>>>> 334c54fdf3a6455d0ced19dd75283546c04b8bd0
 }
 
 /* change border colour to suit your needs */
 hr {
+<<<<<<< HEAD
   display:block;
   height:1px;
   border:0;   
@@ -87,6 +140,18 @@ hr {
 
 input, select {
   vertical-align:middle;
+=======
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+>>>>>>> 334c54fdf3a6455d0ced19dd75283546c04b8bd0
 }
 
 body {
