@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'src/scripts/lib/React'
 import {firestore} from 'src/scripts/lib/firebase/index.js'
 import Button from 'src/scripts/shared/Button'
 

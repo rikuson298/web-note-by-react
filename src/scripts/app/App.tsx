@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'src/scripts/lib/React'
 import Counter from './Counter'
 
 class App extends React.Component {
