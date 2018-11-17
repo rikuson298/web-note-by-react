@@ -1,8 +1,8 @@
 import React from 'src/scripts/lib/React'
 import {firestore} from 'src/scripts/lib/firebase/index.js'
-import Button from 'src/scripts/shared/Button'
+import Button from 'src/scripts/components/shared/Button'
 
-const counter:React.SFC<{}> = () => {
+const FireStoreCounter:React.SFC<{}> = () => {
   const [count, setCount] = React.useState(0)
   return (
     <div>
@@ -21,4 +21,4 @@ const counter:React.SFC<{}> = () => {
   )
 }
 
-export default counter
+export default FireStoreCounter
