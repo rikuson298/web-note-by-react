@@ -1,4 +1,5 @@
 import * as React from 'react'
+import {firestore} from 'src/scripts/lib/firebase/index.js'
 import Button from 'src/scripts/shared/Button'
 
 const counter:React.SFC<{}> = () => {
@@ -7,7 +8,13 @@ const counter:React.SFC<{}> = () => {
     <div>
       counter
       {count}
-      <Button onClick={() => setCount(count + 1)}>
+      <Button onClick={() => {
+          setCount(count + 1)
+          firestore.collection('count').add({
+            count: count,
+          })
+        }
+      }>
         +
       </Button>
     </div>
