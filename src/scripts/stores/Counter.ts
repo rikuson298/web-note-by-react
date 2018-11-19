@@ -1,8 +1,24 @@
-export const initialState = {
+interface ICounterState {
+  count: number
+}
+
+interface IAction<A, P> {
+  type: A
+  payload: P
+}
+
+type IActionCreator<A, P> = (p: P) => {
+  type: A
+  payload?: P
+}
+
+type ActionTypes = 'INCREMENT' | 'DECREMENT'
+
+export const initialState: ICounterState = {
   count: 0,
 }
 
-export const reducer = (state: any, action: any) => {
+export const reducer = (state: ICounterState, action: IAction<ActionTypes, null>) => {
   switch (action.type) {
     case 'INCREMENT':
       return {...state, count: state.count + 1};
@@ -13,11 +29,11 @@ export const reducer = (state: any, action: any) => {
   }
 }
 
-const increment = () => ({
+const increment: IActionCreator<ActionTypes, undefined> = () => ({
   type: 'INCREMENT'
 })
 
-const decrement = () => ({
+const decrement: IActionCreator<ActionTypes, undefined> = () => ({
   type: 'DECREMENT'
 })
 
