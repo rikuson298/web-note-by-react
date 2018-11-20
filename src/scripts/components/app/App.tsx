@@ -1,7 +1,7 @@
 import React from 'src/scripts/lib/React'
 import {useAppProvider} from 'src/scripts/contexts/app/Provider'
 import {useAppConsumer} from 'src/scripts/contexts/app/Consumer'
-import {initialState, reducer, actionCreators} from 'src/scripts/stores/Counter'
+import {initialState, reducer, actionCreators} from 'src/scripts/ducks/modules/Counter'
 import Button from 'src/scripts/components/shared/Button'
 import FireStoreCounter from './FireStoreCounter'
 
